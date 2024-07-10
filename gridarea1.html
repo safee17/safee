@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: grid;
+            grid-template-columns: 1fr 6fr;
+            grid-template-rows: 1fr 2fr;
+            height: 400px;
+            gap: 5px;
+            text-align: center;
+        }
+        .parent>div{
+            border: 2px solid yellow;
+        }
+        .header{
+            grid-column: 1/3;
+        }
+        .sidebar{
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            grid-row: 2/3;
+        }
+        .main{
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        .footer{
+            grid-column: 1/3;
+        }
+
+    </style>
+</head>
+<body>
+<div class="parent">
+    <div class="header">Header Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio autem harum rem corrupti culpa omnis cum praesentium consequatur adipisci nisi voluptates tempora, minima dolore magnam at laboriosam quasi. Minima cupiditate laboriosam hic impedit eum eaque adipisci natus consequuntur, velit id modi voluptatum amet? Nam non aut officiis id fugit?</div>
+    <div class="sidebar"><p>Home</p>
+        <p>Home</p>
+        <p>Home</p>
+        <p>Home</p></div>
+    <div class="main">main Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos culpa cupiditate sequi natus animi? Repellat, facilis. Tempora quis sapiente dolorum repellendus soluta exercitationem explicabo inventore voluptatem aliquid facere, deleniti est sint quibusdam itaque! Maiores amet, magnam reiciendis minus unde numquam praesentium, quos blanditiis consequatur cum quae ut ratione explicabo adipisci molestias veniam recusandae? Dolore et ea accusantium excepturi aperiam explicabo! Voluptatibus at natus quod ipsum sequi non aspernatur saepe pariatur. Quos, quas reprehenderit ullam nobis repellat dolorem architecto veritatis animi asperiores fugit rerum quisquam nihil totam maxime molestiae nostrum! Cumque inventore facere molestiae libero corrupti nam porro, alias sit reprehenderit tempore asperiores quis minima quibusdam, veniam ullam enim doloremque maiores, aut eos. Quia maiores dolorem fugiat asperiores dolores omnis error. Recusandae sequi dicta aspernatur accusamus id, impedit porro quo iste! Illum incidunt quas placeat atque molestiae veritatis aperiam laborum maxime! Dolores eum cum repellat quas nostrum expedita rerum consequatur, quo facilis. Minima vel dolorum nesciunt. Tempore, quae aliquid a tenetur asperiores molestias, blanditiis consequuntur facilis recusandae illo velit numquam quaerat accusamus possimus voluptatibus voluptate ut corporis enim excepturi laborum ex. Porro, tempore mollitia et labore, necessitatibus totam quae quisquam officiis commodi inventore pariatur. Exercitationem quod iusto numquam corrupti aut, cum aliquam molestiae atque velit ipsum minus facere quam debitis. Fugiat neque unde tempore inventore nisi provident cum dolor. Expedita debitis corrupti in cum rerum at cupiditate! Illum culpa illo animi itaque obcaecati fuga? Consectetur nulla voluptatibus beatae optio non harum aut, vero et? Odit dolore harum ex sit, facilis quo minus officia dignissimos omnis quam ad fugit qui dolorum ipsum quasi quae voluptate iusto voluptates laborum. Quasi explicabo autem iusto commodi velit doloribus numquam quibusdam temporibus. Eaque omnis sint id incidunt fuga, at veniam praesentium nulla sapiente nesciunt quo reprehenderit laborum quae repellendus! Quidem ratione adipisci assumenda consequuntur dolorum molestiae.</div>
+    <div class="footer">Footer Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem omnis aliquid molestiae doloribus eligendi rerum dicta expedita nulla fugiat temporibus at cum, similique nam quos id ipsam enim. Repellat, tenetur cum delectus tempore nobis illo perferendis sunt officia tempora ab repudiandae saepe. Expedita molestias quae culpa dolores ratione quas quidem!</div>
+</div>
+</body>
+</html>

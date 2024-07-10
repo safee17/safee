@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#color{
+    height: 500px;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+}
+button{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: center;
+}
+#ran{
+    font-size: 20px;
+    text-align: center;
+    background-color: aqua;
+}
+    </style>
+</head>
+<body>
+    <div id="color">
+        <!-- <p>harrraaaaaaaaaaa</p> -->
+        <button onclick="gene()" id="ran">Change</button>
+    </div>
+    <script>
+        // // var color = document.getElementById("color")
+        // f = document.getElementById("ran")
+        function gene() {
+            var r1 = Math.floor(Math.random()*255)
+            var r2 = Math.floor(Math.random()*255)
+            var r3 = Math.floor(Math.random()*255)
+            var rgb= "rgb("+r1+", "+r2+", "+r3+")"
+            color.style.backgroundColor = rgb
+        }
+    </script>
+</body>
+</html>
